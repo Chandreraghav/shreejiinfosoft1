@@ -8,6 +8,7 @@ import Aboutus from './Components/Aboutus';
 import Contact from './Components/Contact';
 import Domain from './Components/Domain';
 import Portfolio from './Components/Portfolio';
+import ScrollToTopButton from './Components/ScrollToTopButton';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Route path='/aboutus' element={<Aboutus/>}/>
       <Route path='/contact' element={<Contact/>}/>
     </Routes>
+    <ScrollToTopButton/>
   </BrowserRouter>
    
    
